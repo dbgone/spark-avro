@@ -49,7 +49,9 @@ ScoverageSbtPlugin.ScoverageKeys.coverageHighlighting := {
 
 EclipseKeys.eclipseOutput := Some("target/eclipse")
 
-// Release settings
+/********************
+ * Release settings *
+ ********************/
 
 publishMavenStyle := true
 
@@ -85,9 +87,7 @@ pomExtra :=
 
 bintrayReleaseOnPublish in ThisBuild := false
 
-
 import ReleaseTransformations._
-
 
 // Add publishing to spark packages as another step.
 releaseProcess := Seq[ReleaseStep](
