@@ -49,9 +49,7 @@ ScoverageSbtPlugin.ScoverageKeys.coverageHighlighting := {
 
 EclipseKeys.eclipseOutput := Some("target/eclipse")
 
-/********************
- * Release settings *
- ********************/
+// Release settings
 
 publishMavenStyle := true
 
